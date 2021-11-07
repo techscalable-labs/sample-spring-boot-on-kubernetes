@@ -23,7 +23,7 @@ additionalAgents:
         cpu: "1"
         memory: "2048Mi"
 
-master:
+controller:
   JCasC:
     configScripts:
       creds: |
@@ -40,8 +40,8 @@ master:
                   - usernamePassword:
                       scope: GLOBAL
                       id: github_credentials
-                      username: piomin
-                      password: Piot_123
+                      username: techscalable-labs
+                      password: your-password
               - credentials:
                   - kubeconfig:
                       id: "docker-desktop"
