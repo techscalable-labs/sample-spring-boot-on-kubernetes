@@ -41,7 +41,7 @@ controller:
                       scope: GLOBAL
                       id: github_credentials
                       username: techscalable-labs
-                      password: your-password
+                      password: ${GITHUB_PASSWORD}
               - credentials:
                   - kubeconfig:
                       id: "docker-desktop"
